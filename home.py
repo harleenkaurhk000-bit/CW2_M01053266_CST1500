@@ -3,7 +3,7 @@ from app_model.login import hash_password, valid_hash
 from app_model.users import add_user, get_user
 from app_model.db import get_db_connection_user
 
-g
+
 conn = get_db_connection_user()
 
 st.header("Home Page")
