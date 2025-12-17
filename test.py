@@ -1,3 +1,8 @@
+from app.datasets import get_all_datasets_metadata
+from app.db import conn
+
+
+print(get_all_datasets_metadata(conn))
 import bcrypt
 def hash_password(password):
     binery_password = password.encode("utf-8")
